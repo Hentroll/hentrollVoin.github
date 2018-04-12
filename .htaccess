@@ -1,0 +1,37 @@
+
+AddDefaultCharset utf-8
+DirectoryIndex index.php
+Options -Indexes
+ErrorDocument 404 /error.php
+  
+RewriteEngine On
+
+RewriteRule ^my_ban/?$ /mahaker/my_ban.php [L,QSA]
+RewriteRule ^battle/basement/?$ /rus/basement/index.php [L,QSA]
+RewriteRule ^battle/pvp/?$ /rus/PvP/index.php [L,QSA]
+RewriteRule ^worldkassa/?$ /paywk/index.php [L,QSA]
+RewriteRule ^block/([0-9]*)/?$ /mahaker/block.php?id=$1 [L,QSA]
+RewriteRule ^/?$ index.php [L,QSA]
+RewriteRule ^ref?$ ref.php [L,QSA]
+RewriteRule ^ban/([0-9]*)/?$ /mahaker/ban.php?id=$1 [L,QSA]
+RewriteRule ^clans/?$ clans.php?id=$1 [L,QSA]
+RewriteRule ^clan/([0-9]*)/?$ clan.php?id=$1 [L,QSA]
+RewriteRule ^clan/user/([0-9]*)/?$ clan.php?user=$1 [L,QSA]
+RewriteRule ^clan/forum/?$ cforum.php [L,QSA]
+RewriteRule ^clan/([0-9]*)/forum/?$ cforum.php?id=$1 [L,QSA]
+RewriteRule ^clan/forum/([0-9]*)?$ cforum.php?forumsub=$1 [L,QSA]
+RewriteRule ^clan/forum/sub/([0-9]*)?$ cforum.php?cforum_topic=$1 [L,QSA]
+RewriteRule ^hero/([0-9]*)?$ hero.php?id=$1 [L,QSA]
+RewriteRule ^ip/([0-9]*)?$ /mahaker/ip.php?id=$1 [L,QSA]
+RewriteRule ^settings?$ settings.php [L,QSA]
+RewriteRule ^train?$ train.php [L,QSA]
+RewriteRule ^chat?$ chat.php [L,QSA]
+RewriteRule ^rating?$ rating.php [L,QSA]
+RewriteRule ^online?$ online.php [L,QSA]
+RewriteRule ^mail/?$ mail.php [L,QSA]
+RewriteRule ^mail/([0-9]*)?$ mail_diolog.php?id=$1 [L,QSA]
+RewriteRule ^forum/([0-9]*)?$ forum.php?id=$1 [L,QSA]
+RewriteRule ^forum/sub/([0-9]*)?$ forum.php?topic=$1 [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d 

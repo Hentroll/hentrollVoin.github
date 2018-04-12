@@ -1,0 +1,172 @@
+html{background-color: #0D0D0D;}
+body{
+margin: 0 auto;
+text: center;
+max-width: 320px;
+color: #FFFFCC;
+background: #212121;
+font-size: 14px;
+font-family: Arial,sans-serif;
+word-wrap: break-word;
+}
+.teac{
+display:block;
+color: silver;
+font-size:12px;
+border: 1px solid #000000;
+background:#242428;
+padding:7px;
+text-decoration:none;
+}
+.header{
+padding: 5px 5px ;
+background: #232223;
+border-top: 1px solid #1b1b1e;
+border-bottom: 1px solid #1b1b1e;
+position: relative;
+color: white;
+}
+hr{
+border: none;
+border-bottom: 1px solid #1b1b1e;
+width: 100%;
+}
+.exp_polos {
+background: black;
+margin: 0px;
+max-width: 100%;
+border-radius: 0px;
+padding: 0px;
+}
+input[type="submit"] {
+	margin:auto;
+    margin-top: 5px; border: 1px solid #050505;
+background: url("http://mrush.ru/images/style/button2.png") no-repeat;
+    width: 150px; padding: 3px 0 3px 0; text-align: center; font-weight: bold;
+    color: #fff; font-size: 14px;
+}
+
+.oh{
+float:left;
+padding: 0 4px 0 0;
+margin:0;
+vertical-align:middle;
+}
+.exp_polos .progress {
+background-color: #ffb509;
+max-width: 100%;
+border-radius: 0px;
+padding: 0px;
+}
+a {
+color: #FFFFCC;
+text-decoration:none;
+}
+img {
+border: 0;
+vertical-align: top;
+max-width: 100%;
+}
+.center{
+text-align:center;
+}
+.right{
+text-align:right;
+}
+.left{
+text-align:left;
+}
+a.link{
+    display: block;
+    line-height: 1.1;
+padding: 7px;
+border: 1px solid #000000;
+background-color: #242428;
+}
+a.des{
+text-decoration: none;
+display: block;
+padding: 7px 5px 5px 5px;
+border: 1px solid #000000;
+border-style: ridge;
+border-color: #1b1b1e;
+border-radius:0px;
+min-height: 16px;
+color: #FFFFCC;
+border: none;
+background: #242324;
+list-style: none;
+}
+a.but{
+text-decoration: none;
+display: inline-block;
+border: 1px solid #000000;
+min-height: 30px;
+max-height: 30px;
+border-radius:0px;
+min-height: 16px;
+color: #FFFFCC;
+border: none;
+margin-top: 5px; border: 1px solid #050505;
+background: url("http://mrush.ru/images/style/button2.png") no-repeat;
+width: 150px; padding: 3px 0 3px 0; text-align: center; font-weight: bold;
+list-style: none;
+
+}
+.text{
+padding: 5px 5px ;
+background: #242428;
+border-top: 1px solid #222222;
+border-bottom: 1px solid #1b1b1e;
+position: relative;
+color: white;
+}
+.de{
+padding: 5px 5px ;
+background: #242324;
+border-top: 1px solid #1b1b1e;
+border-bottom: 1px solid #1b1b1e;
+position: relative;
+color: white;
+}
+input[type="text"], input[type="password"] {
+background-image:url("/design/inputext.png");
+border: 1px solid #4B4B4B;
+color: #fff;
+padding: 4px;
+}
+input[type="stan"] {
+margin-top: 2px;
+margin-left: 0;
+margin-right: 0;
+background-image:url("/design/inputsub.png");
+font-size: 14px;
+color: #ccc;
+border: 1px solid #3B3B3B;
+padding: 4px;
+}
+.head {
+background: #242428;
+	color: #ccc;
+	width: 100%;
+}
+.head a {
+	display: inline-block;
+padding: 12px 0;
+background: #242428;
+	float: left;
+	width: 33%;
+	height: 8%;
+	text-align: center;
+	margin: 0px;
+}
+.headc a {
+	display: inline-block;
+padding: 12px 0;
+background: #242428;
+	float: left;
+	width: 34%;
+	height: 8%;
+	text-align: center;
+	margin: 0px;
+}
